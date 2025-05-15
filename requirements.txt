@@ -1,0 +1,11 @@
+colorama
+python-dotenv
+openai
+uvicorn
+mcp
+langchain
+langchain-community
+numpy
+ollama
+openai-agents
+# Add other necessary dependencies
