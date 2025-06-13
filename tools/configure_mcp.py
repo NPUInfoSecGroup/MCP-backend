@@ -265,6 +265,16 @@ MCP_SERVERS = [
         "exe_name": "waybackurls.exe",
         "env_var": "WAYBACKURLS_PATH",
         "homepage": "https://www.npmjs.com/package/gc-waybackurls-mcp"
+    },
+    {
+        "name": "SSTI Exploiter",
+        "key": "SSTIExploiter",
+        "command": "npx",
+        "args": ["-y", "coke-fenjing-mcp"],
+        "description": "MCP server for Server-Side Template Injection (SSTI) exploitation using the Coke tool.",
+        "exe_name": "fenjing.exe",
+        "env_var": "FENJING_PATH",
+        "homepage": "https://www.npmjs.com/package/coke-fenjing-mcp"
     }
 ]
 

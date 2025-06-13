@@ -1,3 +1,32 @@
 {
-  "servers": []
+  "servers": [
+    {
+      "name": "Nmap Scanner",
+      "params": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "gc-nmap-mcp"
+        ],
+        "env": {
+          "NMAP_PATH": "D:\\MCP\\Nmap\\nmap.exe"
+        }
+      },
+      "cache_tools_list": true
+    },
+    {
+      "name": "SSTI Exploiter",
+      "params": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "coke-fenjing-mcp@1.0.2"
+        ],
+        "env": {
+          "FENJING_PATH": "F:\\anaconda3\\envs\\infosecFinalWork\\Scripts\\fenjing.exe"
+        }
+      },
+      "cache_tools_list": true
+    }
+  ]
 }
