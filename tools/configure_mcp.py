@@ -275,6 +275,16 @@ MCP_SERVERS = [
         "exe_name": "fenjing.exe",
         "env_var": "FENJING_PATH",
         "homepage": "https://www.npmjs.com/package/coke-fenjing-mcp"
+    },
+    {
+        "name": "Fscan Scanner",
+        "key": "Fscan",
+        "command": "npx",
+        "args": ["-y", "coke-fscan-mcp"],
+        "description": "MCP server for fast port scanning and service detection using the Fscan tool. it is An internal network comprehensive scanning tool. it will use the fscan.exe to scan the target opening ports, auto try to use poc to detect the vulnerability and try to exploit the weak password. if the target is a domain machine, it will also try to get the domain information.",
+        "exe_name": "fscan.exe",
+        "env_var": "FSCAN_PATH",
+        "homepage": "https://www.npmjs.com/package/coke-fscan-mcp"
     }
 ]
 

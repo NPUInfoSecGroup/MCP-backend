@@ -27,6 +27,20 @@
         }
       },
       "cache_tools_list": true
+    },
+    {
+      "name": "Fscan Scanner",
+      "params": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "coke-fscan-mcp@1.0.2"
+        ],
+        "env": {
+          "FSCAN_PATH": "D:\\MCP\\fscan\\fscan.exe"
+        }
+      },
+      "cache_tools_list": true
     }
   ]
 }
