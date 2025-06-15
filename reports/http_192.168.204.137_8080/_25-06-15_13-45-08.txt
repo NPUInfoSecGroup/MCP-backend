@@ -1,0 +1,4 @@
+# Dirsearch started Sun Jun 15 13:45:13 2025 as: F:\anaconda3\envs\infosecFinalWork\Scripts\dirsearch -u http://192.168.204.137:8080 -i 200 -x 404
+
+200   583B   http://192.168.204.137:8080/1.txt
+200    16B   http://192.168.204.137:8080/2.txt

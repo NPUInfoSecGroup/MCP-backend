@@ -41,6 +41,20 @@
         }
       },
       "cache_tools_list": true
+    },
+    {
+      "name": "Dirsearch Web path Discovery",
+      "params": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "coke-dirsearch-mcp"
+        ],
+        "env": {
+          "DIRSEARCH_PATH": "F:\\anaconda3\\envs\\infosecFinalWork\\Scripts\\dirsearch.exe"
+        }
+      },
+      "cache_tools_list": true
     }
   ]
 }

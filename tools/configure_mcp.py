@@ -285,6 +285,16 @@ MCP_SERVERS = [
         "exe_name": "fscan.exe",
         "env_var": "FSCAN_PATH",
         "homepage": "https://www.npmjs.com/package/coke-fscan-mcp"
+    },
+    {
+        "name": "Dirsearch Web path Discovery",
+        "key": "Dirsearch",
+        "command": "npx",
+        "args": ["-y", "coke-dirsearch-mcp"],
+        "description": "MCP server for web path discovery using the Dirsearch tool. it is a simple command line tool designed to brute force directories and files in websites.",
+        "exe_name": "dirsearch.exe",
+        "env_var": "DIRSEARCH_PATH",
+        "homepage": "https://www.npmjs.com/package/coke-dirsearch-mcp"
     }
 ]
 
